@@ -1,0 +1,25 @@
+Package: fishmetaweb
+Type: Package
+Title: Predicted Trophic Interactions Among Ray-Finned Fishes
+Version: 1.0.0
+Authors@R: c(
+    person("G. Virginio", "Clemente", role = c("aut", "cre"),
+           email = "g.v.clemente@outlook.it"),
+    person("John", "Llewelyn", role = "aut"),
+    person("Corey J. A.", "Bradshaw", role = "aut"),
+    person("Valeriano", "Parravicini", role = "aut"),
+    person("Giovanni", "Strona", role = "aut"))
+Description: A fitted random-forest model of prey-predator interactions among
+    ray-finned fishes, together with the trait and phylogenetic data it needs.
+    The package returns the predicted probability that one species feeds on
+    another, and assembles a food web for any list of species by keeping the
+    predicted links whose two endpoints both occur in the list. The model is
+    shipped fitted; nothing is estimated at run time.
+License: CC BY 4.0 + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports: methods, stats, utils
+Suggests: igraph, testthat (>= 3.0.0)
+LazyData: true
+LazyDataCompression: xz
+Config/roxygen2/version: 7.3.2

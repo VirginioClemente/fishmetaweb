@@ -1,0 +1,16 @@
+citHeader("To cite fishmetaweb in publications, cite the data descriptor:")
+
+bibentry(
+  bibtype = "Unpublished",
+  title   = paste("A global potential trophic metaweb for marine and",
+                  "freshwater fishes reconstructed from traits, phylogeny,",
+                  "and machine learning"),
+  author  = c(person("G. Virginio", "Clemente"),
+              person("John", "Llewelyn"),
+              person("Corey J. A.", "Bradshaw"),
+              person("Valeriano", "Parravicini"),
+              person("Giovanni", "Strona")),
+  year    = "2026",
+  note    = paste("Data descriptor accompanying the fishmetaweb R package.",
+                  "Manuscript in preparation.")
+)

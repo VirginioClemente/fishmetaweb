@@ -1,0 +1,21 @@
+Copyright (c) 2026 Giovanni Valerio Clemente
+
+This package, including the fitted model and the data it carries, is licensed
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the material for any purpose, including
+commercially, provided that you give appropriate credit, provide a link to the
+licence, and indicate if changes were made.
+
+Summary of the licence
+  https://creativecommons.org/licenses/by/4.0/
+
+Full legal text
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution should cite the data descriptor accompanying this package; see
+inst/CITATION or call citation("fishmetaweb") once the package is installed.
+
+The underlying sources carry their own terms. Trait data derive from FishBase,
+the phylogeny from the Fish Tree of Life, documented interactions from the
+Global Biotic Interactions database, and occurrence records from OBIS and GBIF.
