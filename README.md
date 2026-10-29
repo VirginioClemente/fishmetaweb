@@ -116,33 +116,15 @@ when you need the whole edge list rather than a local web. That deposit holds
 the full edge list as a Parquet file and as a compressed CSV, together with a
 network summary table and the metadata of the projection run.
 
-The fitted pipeline that produced the model, including the two scripts that
-rebuild the object shipped here, is deposited at
+The fitted pipeline that produced the model is deposited at
 <https://doi.org/10.6084/m9.figshare.34840326>.
 
 ## Paper
 
-The model, its validation and the released network are described in the data
-descriptor accompanying this package. Please cite it when you use these
-predictions.
+The model, its validation and the released network are described in the
+following work, which we ask you to cite when you use these predictions,
 
-## Rebuilding the shipped model
-
-Two scripts rebuild the object the package ships, starting from the fitted
-pipeline. They are distributed with the pipeline deposit rather than with this
-repository, because they read the pipeline's own outputs. Run them from the
-directory that holds them,
-
-```
-python export_model_for_r.py /tmp/export
-Rscript build_model_object.R /tmp/export
-```
-
-The first writes the trait table, every node of every tree, and the encoding
-metadata. The second assembles them into the `FishMetaweb` object stored in
-`fishmetaweb/data/`. The exported trait values are rounded to the precision the
-fitted model uses internally, so the R traversal reproduces the original
-predictions exactly.
+> TO COMPLETE - authors, title, journal, year, DOI
 
 ## Licence
 
