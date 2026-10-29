@@ -110,8 +110,15 @@ GBIF.
 ## The global network
 
 This package predicts interactions on demand. The complete predicted network for
-all covered species is published separately as a data deposit, and is the right
-starting point when you need the whole edge list rather than a local web.
+all covered species is published separately as a figshare data deposit,
+<https://doi.org/10.6084/m9.figshare.34840320>, and is the right starting point
+when you need the whole edge list rather than a local web. That deposit holds
+the full edge list as a Parquet file and as a compressed CSV, together with a
+network summary table and the metadata of the projection run.
+
+The fitted pipeline that produced the model, including the two scripts that
+rebuild the object shipped here, is deposited at
+<https://doi.org/10.6084/m9.figshare.34840326>.
 
 ## Paper
 
